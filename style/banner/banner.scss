@@ -1,0 +1,47 @@
+.banner{
+    position: relative;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.banner-text{
+    position: absolute;
+    width: 40%;
+    top: 32%;
+    left: 19.5%;
+    color: white;
+}
+
+.banner-text h1{
+    font-size: 43px;
+}
+
+.banner-text h2{
+    margin: 2px 0;
+    font-size: 1.7em;
+}
+.banner-text p{
+    font-size: 0.65em;
+    color: rgb(211, 211, 211);
+    margin-bottom: 36px;
+    max-width: 360px;
+    margin-top: 18px;
+    line-height: 15px;
+}
+
+.banner-text button{
+    font-size: 9px;
+    border-radius: 0;
+    background:transparent;
+    color: white;
+    padding: 11px 31px;
+    border: 1px solid white;
+    transition: all .3s;
+}
+
+.banner-text button:hover{
+    background-color: $activeColor;
+}

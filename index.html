@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <img src="./imgs/header/Logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Pages</li>
+                    <li>Classes</li>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="search-cart">
+                <i class="fa-solid fa-magnifying-glass"></i>|
+                <i class="fa-solid fa-basket-shopping"></i>|
+                <i class="fa-solid fa-user"><a href="#"></a></i>
+            </div>
+            <div class="nav-bar-list">
+                <label for="nav-mobie-input">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" name="" hidden id="nav-mobie-input">
+                <div class="nav-bar-mobie">
+                    <label for="nav-mobie-input">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <ul>
+                        <li>Home</li>
+                        <li>Pages</li>
+                        <li>Classes</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+                <label for="nav-mobie-input" class="overLay"></label>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./imgs/banner/468886-PFZ4PE-862.png" alt="">
+            <div class="banner-text">
+                <div class="grid wide">
+                    <div class="text-content">
+                        <h1>Dumbbells Shop</h1>
+                        <h2>Best body fitness</h2>
+                        <p class="description hide-on-mobile-tablet">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio
+                            exercitationem totam! Voluptatibus, voluptatum pariatur tenetur, expedita eaque eum
+                            minima
+                            odio
+                            vel nobis ex non officiis sint, alias vero architecto?
+                        </p>
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="slide">
+                <div class="slide-1">
+                    <div class="slide-img">
+                        <img src="./imgs/banner/imgs.png" alt="">
+                    </div>
+                    <div class="slide-info">
+                        <img src="./imgs/banner/icon3.png" class="img-1slide" alt="">
+                        <h4>DUMBBELS</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                    </div>
+                </div>
+                <div class="slide-2">              
+                    <div class="slide-info">
+                        <img src="./imgs/banner/icon.png" alt="">
+                        <h4>STRENGTH</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                    </div>
+                    <div class="slide-img">
+                        <img src="./imgs/banner/5cee3d334ad30.png" alt="">
+                    </div>
+                </div>
+                <div class="slide-1">
+                    <div class="slide-img">
+                        <img src="./imgs/banner/5cff1632c51da.png" alt="">
+                    </div>
+                    <div class="slide-info">
+                        <img src="./imgs/banner/icon2.png" alt="">
+                        <h4>POWER RACK & CAKE</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                    </div>
+                </div>        
+            </div>
+            <div class="category-list">
+                <ul>
+                    <li class="listing-item cate-active" typeList="top-seller" >Top Seller</li>
+                    <li class="listing-item" typeList="featured">Featured</li>
+                    <li class="listing-item" typeList="most-review">Most Review</li>
+                </ul>
+            </div>
+            <div class="list-products">
+                <div class="row">
+                    <div class="col-4" typeList="most-review featured">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./imgs/products/sp1.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>Body Champ Cardio</p>
+                                <h5>$342.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="featured most-review">
+                        <div class="product" >
+                            <div class="product-img">
+                                <img src="./imgs/products/sp2.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>Body Solid GCEC340</p>
+                                <h5>$214.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="most-review">
+                        <div class="product" >
+                            <div class="product-img">
+                                <img src="./imgs/products/sp3.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>Bowflex BXE116 Elliptical</p>
+                                <h5>$421.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="featured">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./imgs/products/sp4.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>ETHOS GHD</p>
+                                <h5>$152.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="featured">
+                        <div class="product" >
+                            <div class="product-img">
+                                <img src="./imgs/products/sp5.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>AFG Pro 7.2AI Incline</p>
+                                <h5>$252.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="most-review">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./imgs/products/sp6.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>Weight Bench</p>
+                                <h5>$412.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="featured">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./imgs/products/sp7.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>ProForm Hiit Trainer Lite</p>
+                                <h5>$300.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" typeList="most-review featured">
+                        <div class="product">
+                            <div class="product-img">
+                                <img src="./imgs/products/sp8.png" alt="">
+                            </div>
+                            <div class="product-info">
+                                <p>Fitness Gear Pro</p>
+                                <h5>$124.00</h5>
+                            </div>
+                            <div value="0" class="pro-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>     
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>                 
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </div>
+    
+            <div class="about">
+                <h1>See What They Said About Us</h1>
+               <div class="wrap-about-content">
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="./imgs/header/about.png" alt="">
+                    </div>
+                    <p>"Good services. I bought a bicycle with a wrong but they accept"</p>
+                    <h3>LINA</h3>
+                    <p>Happy clients</p>
+                   </div>
+                   <div class="about-content">
+                    <div class="about-img">
+                        <img src="./imgs/header/about.png" alt="">
+                    </div>
+                    <p>"Good services. I bought a bicycle with a wrong but they accept"</p>
+                    <h3>LINA</h3>
+                    <p>Happy clients</p>
+                   </div>
+               </div>              
+            </div>
+    
+            <div class="brand">
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 1.png" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 2.png" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 3.png" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 4.png" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 5.png" alt="">
+                </div>
+                <div class="brand-img">
+                    <img src="./imgs/brand/Brand 6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+           <div class="contents">
+            <div class="contact">
+                <div class="contact-img">
+                    <img src="./imgs/header/Logo.png" alt="">
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesettin.Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+                <div class="contact-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="info">
+               <div class="info1">
+                <h3>CONTACT US</h3>              
+                <ul class="contact-list">
+                    <li class="contact-list-item">
+                        <a href="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>200 Lincoln Ave, Salinas, CA 93901</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="tel:023 32423 223">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>023 32423 223</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="mailto:gymax@example.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>gymax@example.com</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="#">
+                            <i class="fa-solid fa-clock"></i>
+                            <p>9:00 - 20:00 All day</p>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+               <div class="info1 info-hide">
+                <h3>MY ACCOUNT</h3>
+                <ul class="contact-list">
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>My account</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Check out</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Register</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Login</p>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+               <div class="info1 ">
+                <h3>INFORMATION</h3>
+                <ul class="contact-list">
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>About us</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Contact us</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Terms of user</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Privacy Policy</p>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+               <div class="info1 info-hide">
+                <h3>QUICK LINK</h3>
+                <ul class="contact-list">
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>New user</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Help center</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>Report spam</p>
+                        </a>
+                    </li>
+                    <li class="contact-list-item">
+                        <a href="">
+                            <p>FAQs</p>
+                        </a>
+                    </li>
+                </ul>
+               </div>
+            </div>
+           </div>
+            <div class="copyright">
+                <p>Copyright © 2019 Gymax - Design by ArrowHitech - All Rights Res</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.wrap-about-content').slick({
+    dots: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+    </script>
+</body>
+</html>

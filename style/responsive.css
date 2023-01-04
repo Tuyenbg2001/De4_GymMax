@@ -1,0 +1,251 @@
+@media(min-width:1500px) and (max-width:1920px){
+    .header{
+        min-height: 100px;
+    }
+
+    .menu{
+        margin-right: 35px;
+        margin-top: 9px;
+    }
+
+    .search-cart i{
+        margin: 8px 25px 0 19px;
+    }
+
+    .fa-user{
+        margin-right: 12px !important;
+    }
+
+    .menu ul li{
+        padding: 0 30px;
+    }
+    .menu ul li{
+        font-size: 15px;
+    }
+    .search-cart i{
+        font-size: 15px;
+    }
+
+    .banner-text h1{
+        font-size: 62px;
+    }
+
+    .banner-text h2{
+        font-size: 2.55em;
+    }
+
+    .banner-text p{
+        font-size: 1em;
+        line-height: 20px;
+        margin-top: 28px;
+    }
+
+    .banner-text button{
+        font-size: 16px;
+    }
+
+    .slide-info h4{
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:1023px){
+    .header{
+        padding: 0 15%;
+    }
+    .logo{
+        width: 25% !important;
+    }
+    .nav-bar-list{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .search-cart i{
+        font-size: 14px;
+    }
+    .banner-text{
+        top: 25%;
+        width: 50%;
+        left: 15%;
+    }
+
+    .slide{
+        display: flex;
+        flex-direction: column;
+    }
+    .slide-1,.slide-2{
+        display: flex;
+    }
+    .slide-img,.slide-info{
+        width: 50%;
+        height: inherit;
+    }
+
+    .main-content{
+        width: 70%;
+        top: 375px;
+    }
+
+    .col-4{
+        width: 50%;
+    }
+
+    .product-img img{
+        width: 85%;
+    }
+
+    .footer .contents{
+        width: 70%;
+    }
+
+    .footer .contact p{
+        margin: 10px 0 0 0 ;
+    }
+    .info1 h3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 739px){
+
+    .header{
+        padding: 0 10%;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .banner-text h2{
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 9px;
+    }
+    .main-content{
+        width: 80%;
+    }
+
+    .footer .contact p{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .footer .contents{
+        width: 80%;
+    }
+
+    .copyright p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .header{
+        padding: 0 10%;
+    }
+
+    .nav-bar-mobie i{
+        top: 20px;
+        right: 20px;
+    }
+    .main-content{
+        transform: translateY(-20px);
+        width: 80%;
+    }
+
+    .banner-text{
+        top: 50%;
+    }
+
+    .banner-text h2,.banner-text p{
+        display: none;
+    }
+
+    .banner-text h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .main-content .slide .slide-info{
+        padding: 5px;
+    }
+
+    .main-content .slide .slide-info img{
+        width: 15%;
+    }
+    .main-content .slide .slide-info p{
+        font-size: 9px;
+    }
+    .main-content .slide .slide-info h4{
+        font-size: 11px;
+    }
+
+    .category-list ul li{
+        font-size: 14px;
+    }
+
+    .about h1{
+        font-size: 20px;
+    }
+
+    .about img{
+        width: 60px;
+        height: 60px;
+    }
+    p{
+        font-size: 9px;
+    }
+
+     h3{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .dot i{
+        font-size:11px;
+    }
+
+    .footer .contents{
+        width: 80%;
+    }
+
+    .brand{
+        overflow: hidden;
+    }
+
+    .brand-img{
+        width: 50%;
+    }
+
+    .footer .contact{
+        padding: 20px;
+    }
+
+    .contact-img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+
+    .footer .contact p{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .info1{
+        margin: 0 40px;
+    }
+
+    .info-hide{
+        display: none !important;
+    }
+}
+

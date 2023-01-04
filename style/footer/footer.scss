@@ -1,0 +1,53 @@
+.footer{
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+    text-align: center;
+    color: rgb(229, 227, 227);
+
+}
+
+.footer .contents{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer .contact{
+    margin: 0 auto;
+    padding: 50px 100px 20px 100px;
+    border-bottom: 2px solid rgb(163, 162, 162);
+    color: $textColor;
+}
+.footer .contact p{
+    font-size: 14px;
+}
+
+.footer .contact .contact-icon i{
+    margin: 0 15px;
+    color: $textColor;
+}
+
+.footer .contact p{
+    margin: 30px;
+}
+
+.footer .info{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.footer .info1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer.info1 p{
+    color: rgb(133, 133, 133);
+}
+
+.footer .copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}

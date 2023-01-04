@@ -1,0 +1,411 @@
+.header {
+  width: 100%;
+  background: rgba(3, 3, 3, 0.6);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 19% 0 19.5%;
+  z-index: 2;
+  min-height: 67px;
+}
+
+.header .logo {
+  width: 17%;
+  height: auto;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.menu {
+  text-align: left;
+  margin-right: 23px;
+}
+
+.menu ul li {
+  float: left;
+  list-style: none;
+  color: rgb(225, 223, 223);
+  padding: 0 18px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.search-cart {
+  color: white;
+}
+
+.search-cart i {
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  margin: 8px 15px 0 7px;
+}
+
+.nav-bar-list {
+  color: white;
+  display: none;
+}
+
+.nav-bar-list .nav-bar-mobie {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  min-width: 300px;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: all 0.3s;
+  z-index: 3;
+}
+
+.nav-bar-mobie i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nav-bar-list ul li {
+  list-style: none;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.overLay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+#nav-mobie-input:checked ~ .overLay {
+  display: block;
+}
+
+#nav-mobie-input:checked ~ .nav-bar-mobie {
+  transform: translateX(0);
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  width: 40%;
+  top: 32%;
+  left: 19.5%;
+  color: white;
+}
+
+.banner-text h1 {
+  font-size: 43px;
+}
+
+.banner-text h2 {
+  margin: 2px 0;
+  font-size: 1.7em;
+}
+
+.banner-text p {
+  font-size: 0.65em;
+  color: rgb(211, 211, 211);
+  margin-bottom: 36px;
+  max-width: 360px;
+  margin-top: 18px;
+  line-height: 15px;
+}
+
+.banner-text button {
+  font-size: 9px;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  padding: 11px 31px;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.banner-text button:hover {
+  background-color: rgb(249, 66, 66);
+}
+
+.main-content {
+  width: 61%;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(-53px);
+  z-index: 1;
+  left: 20%;
+}
+
+.main-content .slide {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 2px rgb(214, 213, 213);
+}
+
+.main-content .slide .slide-info {
+  background-color: white;
+  height: 50%;
+  padding: 20px;
+}
+
+.slide-img {
+  height: 50%;
+}
+
+.main-content .slide .slide-info h4 {
+  margin: 15px 0;
+}
+
+.main-content .slide .slide-info p {
+  font-size: 0.7em;
+  color: rgb(123, 123, 123);
+}
+
+.main-content .slide .slide-info img {
+  width: 16%;
+}
+
+.img-1slide {
+  width: 20% !important;
+  margin-top: 10px;
+}
+
+.slide-info h4 {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.main-content .slide-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.category-list ul {
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.category-list ul li {
+  list-style: none;
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cate-active {
+  color: rgb(249, 66, 66) !important;
+  border-bottom: 2px solid rgb(249, 66, 66);
+}
+
+.product {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.product-info h5 {
+  font-size: 14px;
+}
+
+.product-info p {
+  font-size: 12px;
+}
+
+.pro-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.pro-icon i {
+  font-size: 12px;
+  border: 1px solid rgb(159, 159, 159);
+  border-radius: 5px 0 5px 0;
+  margin: 5px 0;
+  padding: 3px;
+  color: rgb(123, 123, 123);
+}
+
+.pro-icon i:hover {
+  background-color: rgb(240, 106, 106);
+  color: white;
+}
+
+.product:hover .pro-icon {
+  visibility: inherit;
+}
+
+.product:hover {
+  box-shadow: 1px 1px 2px 1px rgb(181, 181, 181);
+}
+
+.wrap-about-content {
+  display: flex;
+}
+
+.about-content {
+  width: 100%;
+}
+
+.about {
+  margin: 50px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about h1 {
+  margin-bottom: 40px;
+}
+
+.about .about-img, .dot {
+  margin-bottom: 20px;
+}
+
+.about .about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.about p {
+  margin-bottom: 10px;
+}
+
+.active {
+  color: rgb(235, 45, 45);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: rgb(123, 123, 123);
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  margin: 5px 0;
+}
+
+.info1 h3 {
+  text-align: left;
+  font-size: 16px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(203, 203, 203);
+  padding-top: 30px;
+}
+
+.brand img {
+  width: 80%;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(49, 48, 48);
+  text-align: center;
+  color: rgb(229, 227, 227);
+}
+
+.footer .contents {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer .contact {
+  margin: 0 auto;
+  padding: 50px 100px 20px 100px;
+  border-bottom: 2px solid rgb(163, 162, 162);
+  color: rgb(123, 123, 123);
+}
+
+.footer .contact p {
+  font-size: 14px;
+}
+
+.footer .contact .contact-icon i {
+  margin: 0 15px;
+  color: rgb(123, 123, 123);
+}
+
+.footer .contact p {
+  margin: 30px;
+}
+
+.footer .info {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.footer .info1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer.info1 p {
+  color: rgb(133, 133, 133);
+}
+
+.footer .copyright {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 25%;
+}/*# sourceMappingURL=style.css.map */

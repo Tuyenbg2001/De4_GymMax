@@ -1,0 +1,10 @@
+.brand {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(203, 203, 203);
+  padding-top: 30px;
+}
+
+.brand img {
+  width: 80%;
+}/*# sourceMappingURL=brand.css.map */

@@ -141,7 +141,7 @@
     }
 }
 
-@media (max-width: 575.98px){
+@media (min-width:400px) and (max-width: 575.98px){
     .header{
         padding: 0 10%;
     }
@@ -188,6 +188,100 @@
 
     .category-list ul li{
         font-size: 14px;
+    }
+
+    .about h1{
+        font-size: 20px;
+    }
+
+    .about img{
+        width: 60px;
+        height: 60px;
+    }
+    p{
+        font-size: 9px;
+    }
+
+     h3{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .dot i{
+        font-size:11px;
+    }
+
+    .footer .contents{
+        width: 80%;
+    }
+
+    .brand{
+        overflow: hidden;
+    }
+
+    .brand-img{
+        width: 50%;
+    }
+
+    .footer .contact{
+        padding: 20px;
+    }
+
+    .contact-img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+
+    .footer .contact p{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .info1{
+        margin: 0 40px;
+    }
+
+    .info-hide{
+        display: none !important;
+    }
+}
+
+@media(max-width:400px){
+
+    .banner-text{
+        top: 35%;
+    }
+    .banner-text h1{
+        font-size: 20px;
+    }
+
+    .banner-text h2,.banner-text p{
+        display: none;
+    }
+
+    .banner-text button{
+        font-size: 7px;
+        padding: 5px 9px;
+        margin-top: 10px;
+    }
+
+    .main-content .slide .slide-info p{
+        font-size: 0.5em;
+    }
+
+    .main-content .slide .slide-info{
+        padding: 7px;
+    }
+
+    .main-content .slide .slide-info h4{
+        margin: 10px 0;
+    }
+
+    .category-list ul li{
+        font-size: 13px;
     }
 
     .about h1{
